@@ -1,5 +1,4 @@
 <template>
-  <Navbar/>
   <HeroSection/>
   <div class="w-11/12 grid mx-auto grid-cols-2">
     <FeaturedPost/>

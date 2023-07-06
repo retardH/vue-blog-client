@@ -1,5 +1,4 @@
 <script setup>
-
 import CommonButton from "@/components/CommonButton.vue";
 </script>
 

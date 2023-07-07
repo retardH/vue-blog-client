@@ -9,7 +9,11 @@ module.exports = {
       backgroundColor: {
         primary: 'rgba(35, 37, 54, 1)',
         secondary: 'rgba(255, 208, 80, 1)',
-        overlay: 'rgba(0,0,0,0.2)',
+      },
+      colors: {
+        'overlay': 'rgba(0,0,0,0.2)',
+        'lavender': 'rgba(244, 240, 248, 1)',
+        'mediumGray': 'rgba(109, 110, 118, 1)',
       }
     },
   },

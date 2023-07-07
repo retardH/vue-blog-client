@@ -1,24 +1,16 @@
 <template>
-  <div v-for="item in  first === true ? firstPage : secondPage " :key="item.tag"  class="flex flex-row-reverse justify-center items-center gap-12 my-10">
-    <div class="flex flex-col gap-2">
-      <p class="tagColor font-semibold text-base tracking-wider">{{item.tag}}</p>
-      <h1 class="leading-10 text-4xl font-bold">{{item.title}}</h1>
-      <p class="leading-7  font-normal text-base" >{{item.body}}</p>
-    </div>
-    <div>
-      <img :src="item.img"  alt="image"/>
-    </div>
+  <div v-for="(item,index) in  first === true ? firstPage : secondPage " :key="index"  >
+<PostCards :item = "item" />
   </div>
   <div class="flex gap-8 justify-center items-center">
     <button @click="firstPaginate" class="flex justify-center items-center  " :class="first?'activeBtn':'unactiveBtn'"><ArrowLeft/>  Prev  </button>
-
     <button @click="secondPaginate" class="flex justify-center items-center" :class="second?'activeBtn':'unactiveBtn'" >Next <ArrowRight/> </button>
-
   </div>
 
 </template>
 
 <script setup>
+import PostCards from "@/components/PostCards.vue";
 import {computed, ref} from "vue";
 import startup from "@/assets/images/BlogImage/startup.jpg"
 import photo1 from '@/assets/images/BlogImage/photo1.jpg'
@@ -93,11 +85,12 @@ const totalPosts=ref([
 
 ])
 const firstPaginate=()=>{
-  console.log("hello first")
+  console.log(firstPage)
   first.value = true
   second.value = false
 }
 const secondPaginate=()=>{
+  console.log(secondPage)
   first.value = false
   second.value = true
 }

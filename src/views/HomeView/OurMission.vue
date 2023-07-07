@@ -5,8 +5,7 @@ import ArrowRight from "vue-material-design-icons/ChevronRight.vue";
 </script>
 
 <template>
-  <Container>
-    <div class="w-full bg-lavender py-24 px-12 flex items-start gap-8 mt-6 mb-16 relative">
+    <div class="w-full bg-lavender py-24 px-12 flex items-start gap-8 mt-8 mb-24 relative">
       <div class="w-6/12 flex flex-col gap-4">
         <h4 class="text-black text-lg uppercase">about us</h4>
         <h1 class="font-bold text-black text-5xl">We are a community of content writers who share their
@@ -35,5 +34,4 @@ import ArrowRight from "vue-material-design-icons/ChevronRight.vue";
         </div>
       </div>
     </div>
-  </Container>
 </template>

@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="w-full bg-white post-box flex flex-col gap-2 py-8 px-5 cursor-pointer">
+  <div class="w-full bg-white post-box flex flex-col gap-2 px-5 py-5 lg:py-8 cursor-pointer">
     <div class="flex items-center gap-2">
       <span class="text-sm text-slate-600">By John Doe</span>
       <span class="text-sm text-slate-600">|</span>

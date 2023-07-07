@@ -5,7 +5,7 @@ import ArrowRight from  "vue-material-design-icons/ChevronRight.vue";
 </script>
 
 <template>
-  <div class="col-span-1 mb-16 pr-3">
+  <div class="col-span-1 pr-3">
     <h4 class="text-3xl text-black mb-6">Featured Post</h4>
     <div class="p-6 border-[rgba(109, 110, 118, 1)] border-2 flex flex-col gap-4">
       <img alt="feature" src="../../assets/images/featureImg.jpg" class="w-full">

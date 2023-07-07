@@ -5,7 +5,7 @@
     <p class="text-[16px] font-[400] leading-[28px]">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
     </p>
-    <div>
+    <div class="flex justify-center">
       <CommonButton bg-clr="bg-secondary">Join Now</CommonButton>
     </div>
   </div>

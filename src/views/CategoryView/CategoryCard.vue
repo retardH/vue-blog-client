@@ -1,18 +1,20 @@
 <template>
-  <div class="flex  justify-center items-center gap-5 ">
-    <div  v-for="(category,index) in categories"  :key="index"  class=" flex flex-1 " >
-      <div class="flex flex-col  hover:bg-secondary delay-75  duration-75 justify-center items-start gap-2 border-[1px] shadow  p-8 ">
-        <div  class=" w-full flex justify-start  " >
-          <div  class="icons-bg flex justify-center rounded " >
-            <img :src="category.icon" alt="businessIcon"  :class="index===0?'w-10 h-10 ': 'w-10 h-10 p-2'" />
-          </div>
-        </div>
-        <h1>{{category.title}}</h1>
-        <p>{{category.body}}</p>
-      </div>
+  <div class="flex flex-col gap-5 ">
+    <div v-for="(item,index) in categories" :key="index"  >
 
+      <div class="w-48 border-2  h-14 flex  items-center ">
+        <div class="flex items-center justify-between">
+          <div  class=" w-full flex justify-start  " >
+            <div  class="icons-bg flex justify-center rounded " >
+              <img :src="item.icon" alt="businessIcon"  :class="index===0?'w-10 h-10 ': 'w-10 h-10 p-2'" />
+            </div>
+          </div>
+          <h1>{{item.title}}</h1>
+        </div>
+      </div>
     </div>
   </div>
+
 
 </template>
 <script setup>

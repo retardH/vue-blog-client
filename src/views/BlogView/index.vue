@@ -1,6 +1,8 @@
 <template>
   <HeroSection/>
-  <div class="p-14" >
+
+  <div class="px-16 lg:px-24 max-w-[2000px] mx-auto" >
+
     <AllPosts/>
     <AllCategories/>
     <JoinOurTeam/>

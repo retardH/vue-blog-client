@@ -1,11 +1,7 @@
 <script setup>
 import CommonButton from "@/components/CommonButton.vue";
 import Container from "@/components/Container.vue";
-import FB from  "vue-material-design-icons/Facebook.vue";
-import Twitter from  "vue-material-design-icons/Twitter.vue";
-import Instagram from  "vue-material-design-icons/Instagram.vue";
-import Linkedin from  "vue-material-design-icons/Linkedin.vue";
-
+import SocialIcons from "@/components/SocialIcons.vue";
 </script>
 
 <template>
@@ -18,10 +14,10 @@ import Linkedin from  "vue-material-design-icons/Linkedin.vue";
           <router-link to="/" class="text-white text-sm">Blog</router-link>
           <router-link to="/" class="text-white text-sm">About Us</router-link>
           <router-link to="/" class="text-white text-sm">Contact Us</router-link>
-          <CommonButton bg-clr="bg-white">Subscribe</CommonButton>
+          <router-link to="/" class="text-white text-sm">Privacy Policy</router-link>
         </div>
       </div>
-        <div class="py-12 px-10 bg-slate-950 flex items-center justify-between gap-4 mt-6">
+        <div class="py-12 px-10 bg-slate-950 flex items-center justify-between gap-4 mt-12">
           <h4 class="text-white text-2xl w-7/12">Subscribe to our news letter to get latest updates and
             news</h4>
           <div class="flex items-center gap-2 w-5/12">
@@ -30,17 +26,12 @@ import Linkedin from  "vue-material-design-icons/Linkedin.vue";
             <CommonButton bg-clr="bg-secondary">Subscribe</CommonButton>
           </div>
         </div>
-        <div class="flex items-center justify-between mt-6">
+        <div class="flex items-center justify-between mt-12">
           <div class="flex flex-col gap-1.5">
-            <span class="text-sm text-mediumGray">Finstreet 118 2561 Fintown</span>
-            <span class="text-sm text-mediumGray">finsweet@gmail.com 020 7993 2905</span>
+            <span class="text-sm text-white opacity-60">Finstreet 118 2561 Fintown</span>
+            <span class="text-sm text-white opacity-60">finsweet@gmail.com 020 7993 2905</span>
           </div>
-          <div class="flex items-center gap-4">
-            <FB class="text-mediumGray"/>
-            <Twitter class="text-mediumGray"/>
-            <Instagram class="text-mediumGray"/>
-            <Linkedin class="text-mediumGray"/>
-          </div>
+          <SocialIcons/>
         </div>
       </Container>
 

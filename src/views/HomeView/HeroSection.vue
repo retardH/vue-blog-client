@@ -6,7 +6,7 @@ import Container from "@/components/Container.vue";
 
 <template>
   <div
-      class="w-full h-[720px] relative flex items-center bg-center object-contain object-left hero-section mb-16">
+      class="w-full h-[720px] relative flex items-center bg-center object-contain object-left hero-section mb-24">
     <div class="absolute -z-0 overlay inset-0"></div>
     <Container>
       <div class="w-3/5 z-10 flex flex-col items-start gap-4">

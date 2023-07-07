@@ -11,5 +11,6 @@
 import HeroSection from "@/views/BlogView/HeroSection.vue";
 import AllPosts from "@/views/BlogView/AllPosts.vue";
 import AllCategories from "@/views/BlogView/AllCategories.vue";
-import JoinOurTeam from "@/views/BlogView/JoinOurTeam.vue";
+
 </script>
+

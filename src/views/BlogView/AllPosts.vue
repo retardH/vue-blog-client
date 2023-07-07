@@ -5,8 +5,6 @@
   <div>
     <Paginate/>
   </div>
-
-
 </template>
 
 <script setup>

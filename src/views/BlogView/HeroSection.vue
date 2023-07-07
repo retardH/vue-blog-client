@@ -15,8 +15,6 @@
       <ArrowRight/>
     </common-button>
   </div>
-
-
 </template>
   <div class="col-span-2 p-10 mt-2">
 <img  :src="Image" alt="heroSectionImage" />

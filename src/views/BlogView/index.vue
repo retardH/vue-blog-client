@@ -5,7 +5,6 @@
 
     <AllPosts/>
     <AllCategories/>
-    <JoinOurTeam/>
   </div>
 </template>
 <script setup>
